@@ -33,7 +33,7 @@ import org.osgi.annotation.versioning.ConsumerType;
 public interface ManagerSecurityGroupInterfaceApi extends AutoCloseable {
 
     /**
-     * Creates a security group interface within context of the current virtual system
+     * Creates a security group interface within context of the current virtual system.
      *
      * @param sgiElement  the information needed to create a security group interface
      * @return the identifier of the security group interface defined by the security manager
@@ -43,7 +43,7 @@ public interface ManagerSecurityGroupInterfaceApi extends AutoCloseable {
     String createSecurityGroupInterface(SecurityGroupInterfaceElement sgiElement) throws Exception;
 
     /**
-     * Updates a security group interface within context of the current virtual system
+     * Updates a security group interface within context of the current virtual system.
      *
      * @param sgiElement  the information needed to update a security group interface
      *
